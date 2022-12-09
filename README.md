@@ -92,7 +92,14 @@ c <br>
 </span>
 </p>
 
+<p>
 <span style="padding:3px 3px 3px 3px; border-bottom: red solid 1px; color:#ff0000;">Note:</span>
 <span style="color:red;">
 This should work for a string of length 0, 1, or *N*.
 </span>
+</p>
+<p>
+This coding problem is not templated.  You will need to clone the repo and code it in IntelliJ.  
+A test is provided, as is done for all Recitations and Skill Builders.  Once you have completed 
+the coding, please submit it on CodeGrade.
+</p>
