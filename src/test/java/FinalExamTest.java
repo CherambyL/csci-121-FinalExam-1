@@ -6,14 +6,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class FinalExamTest {
 
     @Test
-    @DisplayName("[1] test cstring_null")
+    @DisplayName("[2] test cstring_null")
     void cstring_null() {
         char[] actual = FinalExam.cstring(null);
         assertNull(actual,"Expected a null!");
     }
 
     @Test
-    @DisplayName("[1] test cstring_empty_string")
+    @DisplayName("[4] test cstring_empty_string")
     void cstring_empty_string() {
         char[] actual = FinalExam.cstring("");
         char[] expected = new char[1];
@@ -22,7 +22,7 @@ class FinalExamTest {
     }
 
     @Test
-    @DisplayName("[8] test cstring")
+    @DisplayName("[12] test cstring")
     void cstring() {
         String[] testStrings = {"hello","machine","lazy", "hola"};
         char[][] expecteds = {{'h','e','l','l','o', '\0'},{'m','a','c','h','i','n','e','\0'},
