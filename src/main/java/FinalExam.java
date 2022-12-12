@@ -7,6 +7,15 @@ public class FinalExam {
      * @return returns an array of character terminated by a '\0' containing the characters in the string
      */
     public static char[] cstring(String aString){
-        // TODO: replace this line with your code
+        if(aString == null){
+            return null;
+        }
+        char[]  tide = new char[aString.length() + 1];
+        for (int x = 0; x < aString.length(); x++){
+            tide[x] = aString.charAt(x);
+        }
+        tide[tide.length - 1] = '\0';
+        return tide;
     }
 }
+
